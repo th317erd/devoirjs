@@ -1,0 +1,29 @@
+{
+  "name": "devoirjs",
+  "version": "0.1.0",
+  "description": "Lightweight Javascript library adding functionality used in everyday tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "node spec/runTests.js",
+    "test-debug": "node --inspect --debug-brk spec/runTests.js --do-debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/th317erd/devoirjs.git"
+  },
+  "keywords": [
+    "Utility",
+    "Deferred",
+    "Helpers"
+  ],
+  "author": "Wyatt Greenway",
+  "email": "th317erd@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/th317erd/devoirjs/issues"
+  },
+  "homepage": "https://github.com/th317erd/devoirjs#readme",
+  "devDependencies": {
+    "jasmine": "^2.4.1"
+  }
+}
