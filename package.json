@@ -1,5 +1,5 @@
 {
-  "name": "devoirjs",
+  "name": "devoir",
   "version": "0.1.0",
   "description": "Lightweight Javascript library adding functionality used in everyday tasks",
   "main": "index.js",
