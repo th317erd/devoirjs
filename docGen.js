@@ -1,6 +1,8 @@
 module.exports = function() {
 	return {
-		include: ['^lib/utils\\.js'],
-		extensions: ['js']
+		include: ['^lib/.*'],
+		extensions: ['js'],
+		inputPath: './',
+		outputPath: '../devoirjs.wiki'
 	};
 };
