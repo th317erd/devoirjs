@@ -6,10 +6,10 @@
 	require('./lib/base')(root);
 	require('./lib/deferred')(root);
 
-	root.data = require('./lib/data')();
-	root.utils = require('./lib/utils')();
-	root.events = require('./lib/events')();
-	root.lang = require('./lib/language')();
+	root.data = require('./lib/data')(undefined, root);
+	root.utils = require('./lib/utils')(undefined, root);
+	root.events = require('./lib/events')(undefined, root);
+	root.lang = require('./lib/language')(undefined, root);
 
 	require('./lib/tokenizer')(root.utils);
 
