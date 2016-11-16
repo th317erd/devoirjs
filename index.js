@@ -11,6 +11,7 @@
 	root.events = require('./lib/events')(undefined, root);
 	root.lang = require('./lib/language')(undefined, root);
 
+	require('./lib/formatters')(root.data, root);
 	require('./lib/tokenizer')(root.utils);
 
 	return root;
