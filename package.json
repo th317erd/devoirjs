@@ -1,6 +1,6 @@
 {
   "name": "devoir",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "Lightweight Javascript library adding functionality used in everyday tasks",
   "main": "index.js",
   "scripts": {
